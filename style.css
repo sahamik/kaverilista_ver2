@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    justify-content: center;
+    margin: 0px 40%;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* Lomakkeen tyylit */
+
+.lomake {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    margin:50px 140px;
+}
+
+.lomake h4 {
+    font-size: 1.2em;
+    padding-right: 200px;
+}
+.lomake .form-names #nimi{
+    font-size: 1.2rem;
+}
+.lomake input {
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+}
+
+/* Painikkeen tyylit */
+
+button {
+    background-color: #4e4d4d; /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #3d1585; /* Green */
+    color: white;
+  }
+
+/* Tulostettavan listan tyylit */
+
+#kaverilista {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    top: 400px;
+    left: 190px;
+    font-size: 1.2em;
+}
