@@ -1,0 +1,43 @@
+@media only screen and (max-width: 850px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    header {
+        display: flex;
+        position: relative;
+        top: 100px;
+    }
+
+    body {
+        justify-content: center;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .lomake {
+        margin: 50px;
+        padding-top: 150px;
+        padding-bottom: 400px;
+    }
+    .lomake #nimi {
+        width: 90%;
+        margin-left: 4px;
+    }
+    .lomake h4, input, button {
+        margin: 3px 3px;
+    }
+    .lomake h4 {
+        padding-bottom: 8px;
+    }
+
+    #kaverilista {
+        margin-top: 50px;
+        left: 60px;
+
+    }
+  }
