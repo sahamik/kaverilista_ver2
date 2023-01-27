@@ -31,7 +31,7 @@ function poistaKaveri() {
         lista = lista + (i+1) + ". " + kaveriLista[i] + "<br>"
     }
     
-    if (index !== -1) {
+    if (index > -1) {
         kaveriLista.splice(index, 1);
         
     }
